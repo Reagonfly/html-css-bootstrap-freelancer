@@ -80,6 +80,26 @@ h5{
     background-color: rgb(49, 49, 49);
 }
 
+.barra-two{
+    height: 3px;
+    width: 80px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
 .deco-one{
     color: rgb(49, 49, 49);
+}
+
+.deco-two{
+    color: #fff;
+}
+
+.deco-txt{
+    text-align: center;
+}
+
+.txt-deco a{
+    text-decoration: none;
+    color: #1abc9c;
 }
