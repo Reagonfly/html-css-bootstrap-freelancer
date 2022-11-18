@@ -14,14 +14,29 @@
     height: 80px;
 }
 
-.contained-head,
+.contained-head navbar-toggler,
+.contained-head a,
 main .bg-jade,
-main .bg-ash{
+main .bg-ash,
+main .bg-ash a{
     color: #fff;
+}
+
+main .bg-ash i{
+    padding: 2px;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
 .bg-jade{
     background-color: #1abc9c;
+}
+
+.navbar-nav .nav-link.active{
+    color: #fff;
 }
 
 .bg-ash{
@@ -39,13 +54,6 @@ footer{
 
 .bg-citycamo{
     background-color: #2c3e50;
-}
-/*----media----*/
-
-@media screen and (min-width: 768px){
-    .contained-foot{
-        height: 100px;
-    }
 }
 
 .align-center{
@@ -99,7 +107,7 @@ h5{
     text-align: center;
 }
 
-.txt-deco a{
+main .txt-deco a{
     text-decoration: none;
     color: #1abc9c;
 }
@@ -107,4 +115,12 @@ h5{
 .btn-jade{
     background-color: #1abc9c;
     color: #fff;
+}
+
+/*----media----*/
+
+@media screen and (min-width: 768px){
+    .contained-foot{
+        height: 100px;
+    }
 }
